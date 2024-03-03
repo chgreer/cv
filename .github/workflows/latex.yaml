@@ -9,7 +9,7 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: boada-cv.tex
+          root_file: greer-cv.tex
       - name: If success, commit pdf to repo
         if: success()
         run: |
