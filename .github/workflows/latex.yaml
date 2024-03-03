@@ -14,7 +14,7 @@ jobs:
         if: success()
         run: |
           git config --global user.name 'latex_action'
-          git config --global user.email 'boada@users.noreply.github.com'
+          git config --global user.email 'chgreer@users.noreply.github.com'
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
           echo ready to commit
           git commit -am "commit compiled pdf"
