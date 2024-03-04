@@ -12,40 +12,36 @@ Aurora, Colorado
 Data Scientist Advanced 
 November 2019 -- Present
 
-I lead implementation of real-time machine-learning models into the production electronic health record (EHR) providing clinical decision support. I develop new clinical models, provide software engineering and DevOps expertise, and pilot new technologies for clinical applications.
+I led implementation of machine-learning models into real-time clinical practice. I developed new clinical models, provided software engineering and DevOps expertise, and piloted new technologies for clinical applications.
 
-  -- Designed and built a pipeline for model implementation in the production EHR to predict: risk of complications from influenza, risk of septic shock, and risk of serious bacterial infection. (Epic, Python, Podman)
-  -- Designed and built a process using a Retrieval Augmented Generation (RAG) pattern with ChatGPT to cohort patient using information contained in clinical notes, doubling the precision of existing methods. Eliminated 16 hours of manual chart-review per 1000 patients. (Python, Azure OpenAI Service \& AI Search)
-  -- Replaced existing process to analyze employee survey comments using ChatGPT in a RAG pattern, saving of 400 developer hours per year. (Python, Azure OpenAI Service \& AI Search)
-  -- Leveraged discrete event simulation with a hospital digital twin to build census projections used during the COVID‑19 reponse and ongoing strategic planning. (Python, FutureFlow RX)
-  -- Developed a risk stratification model for a serious hospital-acquired injury attaining 80\% recall with 75\% precision; results to prioritize valuable nursing resources. (Python, R)
-  -- Supervised junior team members modeling the risk of hospital acquired injury, likelihood of employee turnover, and a time series of respiratory-season hospital volumes using epidemiology data. (Data Robot)
-  -- Designed a planning process to allocate resources and provide stakeholder visibility on commitments.
-  -- Co-author on clinical trial results for the sepsis models. Spoke nationally to audiences on implementation and MLOps pipelines for real-time EHR models.
-
+  -- Engineered a pipeline to serve predictions in live clinical records for: complications from influenza, pediatric septic shock, and serious bacterial infection. Served $2000$ predictions per day with $99\%$ uptime and $1$ minute latency. Responsible for $\sim5\%$ of all custom models running in Epic nationwide. (Epic, Python, Podman)
+  -- Architected and built a Retrieval Augmented Generation (RAG) pattern with ChatGPT artificial intelligence to cohort patient using information contained in clinical notes. Increased precision relative to existing methods from 0.33 to 0.65 while maintaining 95\% recall. Eliminated 16 hours of manual review per 1000 patients. (Python, Azure OpenAI Service \& AI Search)
+  -- Redesigned existing process to analyze employee survey comments using ChatGPT artificial intelligence in a RAG pattern, saving more than 300 developer hours per year. (Python, Azure OpenAI Service \& AI Search)
+  -- Developed a risk stratification model for a hospital-acquired injury, attaining $80\%$ recall with $75\%$ precision on a highly-imbalanced ($2\%$ positive) dataset. Models were used to revamp nursing priorities as part of a hospital-wide performance improvement effort. (Python, R)
+  -- Led data science team members modeling the risk of hospital acquired injury, likelihood of employee turnover, and a time series of hospital volumes using epidemiology data. Respiratory volume model contributed to earlier contracting for travel nurse resources, decreasing cost for the 2024 respiratory season. (Data Robot)
+  -- Co-author on clinical trial results for the sepsis models (currently in JAMA peer review). Spoke nationally to audiences on implementation and MLOps pipelines for real-time EHR models.
 
 Oracle 
 Broomfield, Colorado
 Principal Data Scientist
 February 2017 -- November 2019
 
-  -- Incorporated geolocation data into the Oracle Identity Graph. (Python, Spark, AWS EMR, Docker)
-  -- Designed and built a privacy-preserving record linkage algorithm between incoming and fulfilled datasets, improving the quality of the match by 45\%, scale by 30\%, and standardizing the approach across 1000s of datasets. (Scala, Spark, EMR, Docker)
+  -- Incorporated geolocation data into the Oracle Identity Graph, saving $>\$1$ million in annual data costs. (Python, Spark, AWS EMR, Docker)
+  -- Designed and built a privacy-preserving record linkage algorithm, improving the quality of the match by 45\%, scale by 30\%, and standardizing the approach across 1000s of datasets. (Scala, Spark, EMR, Docker)
   -- Designed and built a graph-quality measurement algorithm using a Monte-Carlo approach, demonstrating a $6\times$ improvement over deterministic graph approaches. (Scala, Spark, EMR, Docker)
-
 
 KPMG
 Denver, Colorado
 Sr. Associate Data Scientist
 October 2015 -- February 2017
 
-  -- Designed and build a document classification tool for end-users. Created a domain-specific language for ease-of-use. (Apache OpenNLP, Spark, Python, Elasticsearch)
-  -- Used the document classifier for information security and control for KPMG as well as data separation for large, multinational clients across millions of documents hundreds of TB in size.
+  -- Designed and built a document classification tool for end-users. Created a domain-specific language for ease-of-use. (Apache OpenNLP, Spark, Python, Elasticsearch)
+  -- Utilized document classifier for information security and control for KPMG as well as data separation for large, multinational clients across millions of documents hundreds of TB in size.
 
 Skills
 
 Data: Bayesian statistics, machine learning, natural language processing, Fourier signal analysis, MCMC, record linkage, visualization, large-language model (LLM) prompt engineering, LLM retrieval augmented generation (RAG)
-Technology: Apache Spark, Python, MATLAB, C, SQL, git, BASH, Docker/Podman, Luigi, Azure DevOps, Epic electronic health record, Azure/AWS, Data Robot, Elasticsearch, R, Scala
+Technology: Apache Spark, Python, MATLAB, C, SQL, git, BASH, Docker/Podman, Luigi, Azure DevOps, Epic electronic health record (active certifications in Cogito, Caboodle, and Cognitive Computing), Azure/AWS, Data Robot, Elasticsearch, R, Scala
 Leadership: Experience organizing and leading workshops and collaboration meetings, supervising junior team members, public speaking, agile development, writing/publishing, 2020 Breakthrough Prize in Fundamental Physics laureate for contributions to the Event Horizon Telescope.
 
 Education
