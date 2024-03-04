@@ -26,7 +26,7 @@ I lead implementation of real-time machine-learning models into the production e
 
 Oracle 
 Broomfield, Colorado
-Principle Data Scientist
+Principal Data Scientist
 February 2017 -- November 2019
 
   -- Incorporated geolocation data into the Oracle Identity Graph. (Python, Spark, AWS EMR, Docker)
